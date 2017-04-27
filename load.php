@@ -14,7 +14,7 @@ $MIMETypes = array(
 );
  
 try {
- $connectionInfo = array("UID" => "i13008@oktm", "pwd" => "12345678a!", "Database" => "i13008", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+ $connectionInfo = array("UID" => "i13008@oktm", "pwd" => "*パスワードなので秘匿*", "Database" => "i13008", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
 $serverName = "tcp:oktm.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 
